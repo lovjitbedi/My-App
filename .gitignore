@@ -3,4 +3,4 @@ hooks
 plugins
 platforms/MyApplication
 platforms/platforms.json
-platforms/android/.gradle/2.8
+platforms/android/.gradle/2.8/taskArtifacts/*
