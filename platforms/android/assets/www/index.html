@@ -9,25 +9,22 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>jQuery UI Autocomplete - Default functionality</title>
-    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-</head>
 <body>
 
-<div class="form-group">
-
-    <label for="starting-bus-stop" style="float: left;font-size: 22px;">Starting Bus Stop: &nbsp; </label>
-    <input id="starting-bus-stop" type="search" class="form-control ui-autocomplete-input" placeholder="Starting Place!!!" autocomplete="off"
-           style="float: left;width: 30%;">
+<div class="container">
+  <form role="form">
+    <div class="form-group">
+      <label for="starting-bus-stop">Starting Bus Stop:</label>
+      <input type="search" class="form-control col-xs-4" id="starting-bus-stop" placeholder="Enter Starting Bus Stop...">
+    </div>
+    <div class="form-group">
+      <label for="ending-bus-stop">Destination Bus Stop:</label>
+      <input type="search" class="form-control col-xs-4" id="ending-bus-stop" placeholder="Enter Destination Bus Stop...">
+    </div>
+    <button type="submit" class="btn btn-default">Show Buses</button>
+  </form>
 </div>
+
 
 <script>
 
